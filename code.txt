@@ -1,0 +1,49 @@
+import random
+
+
+def q01():
+    print('Question One')
+
+def q02():
+    print('The ailing National Motors Coporation is in need of a bailout. How do you respond?')
+    print()
+    print("a. Approve Bailout")
+    print("b. Deny Bailout")
+    print("c. Nationalize National Motors")
+    print()
+    return (q02(input(a, b, c)))
+   
+def q03():
+    print('Question Three')
+   
+def q04():
+    print('Question Four')
+
+def q05():
+    print('Question Five')
+
+questions = [
+    'q01()',
+    'q02()',
+    'q03()',
+    'q04()',
+    'q05()'
+    ]
+
+
+
+print(random.choice(questions))
+
+if q02(input) == 'a':
+    print('You Chose A')
+    sys.exit(0)
+elif q02(input) == 'b':
+    print('You Chose B')
+    sys.exit(0)
+elif q02(input) == 'c':
+    print('You Chose C')
+    sys.exit(0)
+else:
+    print("That's Not a Valid Answer!")
+    print(q02)
+    input()
